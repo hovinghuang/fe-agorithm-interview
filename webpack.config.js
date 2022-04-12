@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 // console.log('process.env.NODE_ENV=', process.env.NODE_ENV) // 打印环境变量
 
 const config = {
-  entry: './src/index.js', // 打包入口地址
+  entry: './src/index.ts', // 打包入口地址
   output: {
     filename: 'bundle.js', // 输出文件名
     path: path.join(__dirname, 'dist'), // 输出文件目录
@@ -15,10 +15,18 @@ const config = {
   module: { 
     rules: [
       {
+        test: /\.tsx?$/,
+        use: 'ts-loader',
+        exclude: /node_modules/,
+      },
+      {
         test: /\.css$/, //匹配所有的 css 文件
         use: ['style-loader', 'css-loader'] // use: 对应的 Loader 名称
       }
     ]
+  },
+  resolve: {
+    extensions: ['.tsx', '.ts', '.js'],
   },
   devServer: {
     static: './dist',
