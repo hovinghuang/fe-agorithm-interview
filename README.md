@@ -6,7 +6,7 @@
 <br>
 （1）LeetCode 题目太多，不知从何刷起？面试题目有些是前端常考，有些是后端常考？
 <br>
-答：本站参照 [CodeTop](https://codetop.cc/home){:target="_blank"}上的前端算法题目考察频度，抽取前100道题，知道你时间宝贵，咱们要把时间花在刀刃上。
+答：本站参照 [CodeTop](https://codetop.cc/home)上的前端算法题目考察频度，抽取前100道题，知道你时间宝贵，咱们要把时间花在刀刃上。
 <br>
 （2）LeetCode 上面的题解鱼龙混杂，有些直接题目直接贴代码，没有任何分析过程，看不懂？
 <br>
@@ -17,13 +17,15 @@
 答：本站只做专精，不搞大而全。根据考试频率划分层次，让你做题时心里有数，减少求职者刷算法时的心理负担。
 <br>
 <br>
-使用方法：待补充
+使用方法：
+Windows or Linux 可以用 （CTRL + click）题目 or 题解 打开一个新窗口。
+这样当前页面可以保留，对于刷题比较友好。同理 MAC OS 可以用 CMD + click 
 <br>
 <br>
 CodeTop 前端高频 100 （第1 ~ 20题）
 |  序号 |  题目名称 |  考频  | LeetCode | 牛客 |
 |  ----  |  ----  | ----  |  ----  |  ----  |
-| 1 | [无重复字符的最长子串](/src/00-codetop-fontend-100/01-length-of-longest-substring.ts?_blank)| 51 |  [题目](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/?_blank) [题解](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/by-hovinghuang-qugo/?_blank)|  [题目](https://www.nowcoder.com/practice/b56799ebfd684fb394bd315e89324fb4?tpId=295&tqId=1008889&ru=/exam/oj&qru=/ta/format-top101/question-ranking&sourceUrl=%2Fexam%2Foj%3Ftab%3D%25E7%25AE%2597%25E6%25B3%2595%25E7%25AF%2587%26topicId%3D295?_blank) [题解](https://blog.nowcoder.net/n/fce41b44190449f18c605a0a41db9c78?_blank) | 
+| 1 | [无重复字符的最长子串](/src/00-codetop-fontend-100/01-length-of-longest-substring.ts)| 51 |  [题目](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) [题解](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/by-hovinghuang-qugo/)|  [题目](https://www.nowcoder.com/practice/b56799ebfd684fb394bd315e89324fb4?tpId=295&tqId=1008889&ru=/exam/oj&qru=/ta/format-top101/question-ranking&sourceUrl=%2Fexam%2Foj%3Ftab%3D%25E7%25AE%2597%25E6%25B3%2595%25E7%25AF%2587%26topicId%3D295) [题解](https://blog.nowcoder.net/n/fce41b44190449f18c605a0a41db9c78) | 
 | 2 | [合并两个有序数组]()| 42 |  [题目]() [题解]()|  [题目]() [题解]() | 
 | 3 | [字符串相加]()| 38 |  [题目]() [题解]()|  [题目]() [题解]() | 
 | 4 | [比较版本号]()| 36 |  [题目]() [题解]()|  [题目]() [题解]() | 
