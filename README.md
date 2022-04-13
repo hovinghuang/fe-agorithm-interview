@@ -30,6 +30,7 @@ Windows or Linux 可以用 （CTRL + click）题目 or 题解 打开一个新窗
 
 #### CodeTop 前端高频 100 （第1 ~ 20题）
 <br>
+
 *已完成的题目我会将其序号加粗*
 
 |  序号 |  题目名称 |  考频  | LeetCode | 牛客 |
