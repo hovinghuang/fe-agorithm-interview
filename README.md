@@ -36,7 +36,7 @@ Windows or Linux 可以用 （CTRL + click）题目 or 题解 打开一个新窗
 |  序号 |  题目名称 |  考频  | LeetCode | 牛客 |
 |  ----  |  ----  | ----  |  ----  |  ----  |
 | **1** | [无重复字符的最长子串](./src/00-codetop-fontend-100/01-length-of-longest-substring.ts)| 51 |  [题目](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) [题解](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/by-hovinghuang-qugo/)|  [题目](https://www.nowcoder.com/practice/b56799ebfd684fb394bd315e89324fb4?tpId=295&tqId=1008889&ru=/exam/oj&qru=/ta/format-top101/question-ranking&sourceUrl=%2Fexam%2Foj%3Ftab%3D%25E7%25AE%2597%25E6%25B3%2595%25E7%25AF%2587%26topicId%3D295) [题解](https://blog.nowcoder.net/n/fce41b44190449f18c605a0a41db9c78) | 
-| 2 | [合并两个有序数组]()| 42 |  [题目]() [题解]()|  [题目]() [题解]() | 
+| **2** | [合并两个有序数组](./src/00-codetop-fontend-100/02-merge-sorted-arr.ts)| 42 |  [题目](https://leetcode-cn.com/problems/merge-sorted-array/) [题解](https://leetcode-cn.com/problems/merge-sorted-array/solution/by-hovinghuang-58f6/)|  [题目](https://www.nowcoder.com/practice/89865d4375634fc484f3a24b7fe65665?tpId=295&tqId=658&ru=/exam/oj&qru=/ta/format-top101/question-ranking&sourceUrl=%2Fexam%2Foj%3Ftab%3D%25E7%25AE%2597%25E6%25B3%2595%25E7%25AF%2587%26topicId%3D295) [题解](https://blog.nowcoder.net/n/950d8331e9004749adc1a3d98a5ec29f) | 
 | 3 | [字符串相加]()| 38 |  [题目]() [题解]()|  [题目]() [题解]() | 
 | 4 | [比较版本号]()| 36 |  [题目]() [题解]()|  [题目]() [题解]() | 
 | 5 | [有效的括号]()| 34 |  [题目]() [题解]()|  [题目]() [题解]() | 
