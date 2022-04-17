@@ -5,6 +5,7 @@
  * leetcode 题解: https://leetcode-cn.com/problems/compare-version-numbers/solution/by-hovinghuang-rmlf/
  * 牛客网 题目: https://www.nowcoder.com/practice/2b317e02f14247a49ffdbdba315459e7
  * 牛客网 题解: https://blog.nowcoder.net/n/5569dbf30e3e45ea977152a629d86439
+ */
 
 /**
  * 解法一：分割截取
@@ -14,7 +15,7 @@
  * 时间复杂度：O(max(n, m))
  * 空间复杂度：O(max(n, m))
  */
- function compareVersion(version1: string, version2: string): number {
+function compareVersion(version1: string, version2: string): number {
     const arr1: any[] = version1.split('.')
     const arr2: any[] = version2.split('.')
     const maxLen = Math.max(arr1.length, arr2.length)
