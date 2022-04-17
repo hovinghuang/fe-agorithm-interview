@@ -31,30 +31,30 @@ Windows or Linux 可以用 （CTRL + click）题目 or 题解 打开一个新窗
 #### CodeTop 前端高频 100 （第1 ~ 20题）
 <br>
 
-*已完成的题目我会将其序号加粗*
+*已完成的题目我会将其序号加星号*
 
-|  序号 |  题目名称 |  考频  | LeetCode | 牛客 |
-|  ----  |  ----  | ----  |  ----  |  ----  |
-| **1** | [无重复字符的最长子串](./src/00-codetop-fontend-100/01-length-of-longest-substring.ts)| 51 |  [题目](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) [题解](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/by-hovinghuang-qugo/)|  [题目](https://www.nowcoder.com/practice/b56799ebfd684fb394bd315e89324fb4?tpId=295&tqId=1008889&ru=/exam/oj&qru=/ta/format-top101/question-ranking&sourceUrl=%2Fexam%2Foj%3Ftab%3D%25E7%25AE%2597%25E6%25B3%2595%25E7%25AF%2587%26topicId%3D295) [题解](https://blog.nowcoder.net/n/fce41b44190449f18c605a0a41db9c78) | 
-| **2** | [合并两个有序数组](./src/00-codetop-fontend-100/02-merge-sorted-arr.ts)| 42 |  [题目](https://leetcode-cn.com/problems/merge-sorted-array/) [题解](https://leetcode-cn.com/problems/merge-sorted-array/solution/by-hovinghuang-58f6/)|  [题目](https://www.nowcoder.com/practice/89865d4375634fc484f3a24b7fe65665?tpId=295&tqId=658&ru=/exam/oj&qru=/ta/format-top101/question-ranking&sourceUrl=%2Fexam%2Foj%3Ftab%3D%25E7%25AE%2597%25E6%25B3%2595%25E7%25AF%2587%26topicId%3D295) [题解](https://blog.nowcoder.net/n/950d8331e9004749adc1a3d98a5ec29f) | 
-| 3 | [字符串相加]()| 38 |  [题目]() [题解]()|  [题目]() [题解]() | 
-| 4 | [比较版本号]()| 36 |  [题目]() [题解]()|  [题目]() [题解]() | 
-| 5 | [有效的括号]()| 34 |  [题目]() [题解]()|  [题目]() [题解]() | 
-| 6 | [两数之和]()| 33 |  [题目]() [题解]()|  [题目]() [题解]() | 
-| 7 | [爬楼梯]()| 25 |  [题目]() [题解]()|  [题目]() [题解]() | 
-| 8 | [全排列]()| 25 |  [题目]() [题解]()|  [题目]() [题解]() | 
-| 9 | [最大子序和]()| 25 |  [题目]() [题解]()|  [题目]() [题解]() | 
-| 10| [路径总和]()| 24 |  [题目]() [题解]()|  [题目]() [题解]() | 
-| 11| [反转链表]()| 22 |  [题目]() [题解]()|  [题目]() [题解]() | 
-| 12| [三数之和]()| 21 |  [题目]() [题解]()|  [题目]() [题解]() | 
-| 13| [二叉树的层序遍历]()| 21 |  [题目]() [题解]()|  [题目]() [题解]() | 
-| 14| [数组中的第K个最大元素]()| 21 |  [题目]() [题解]()|  [题目]() [题解]() | 
-| 15| [买卖股票的最佳时机]()| 19 |  [题目]() [题解]()|  [题目]() [题解]() | 
-| 16| [手撕快速排序]()| 19 |  [题目]() [题解]()|  [题目]() [题解]() | 
-| 17| [环形链表]()| 19 |  [题目]() [题解]()|  [题目]() [题解]() | 
-| 18| [最长回文子串]()| 19 |  [题目]() [题解]()|  [题目]() [题解]() | 
-| 19| [求根节点到叶节点数字之和]()| 18 |  [题目]() [题解]()|  [题目]() [题解]() | 
-| 20| [二分查找]()| 15 |  [题目]() [题解]()|  [题目]() [题解]() | 
+|  序号 |  题目名称 |  考频  | LeetCode | 牛客 | 考点 | 难度 |
+|  ----  |  ----  | ----  |  ----  |  ----  |  ----  |  ----  |
+| 1* | [无重复字符的最长子串](./src/00-codetop-fontend-100/01-length-of-longest-substring.ts)| 53 |  [题目](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) [题解](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/by-hovinghuang-qugo/)|  [题目](https://www.nowcoder.com/practice/b56799ebfd684fb394bd315e89324fb4?tpId=295&tqId=1008889&ru=/exam/oj&qru=/ta/format-top101/question-ranking&sourceUrl=%2Fexam%2Foj%3Ftab%3D%25E7%25AE%2597%25E6%25B3%2595%25E7%25AF%2587%26topicId%3D295) [题解](https://blog.nowcoder.net/n/fce41b44190449f18c605a0a41db9c78) | `双指针` `哈希` | <font color= orange>中等</font> |
+| 2* | [合并两个有序数组](./src/00-codetop-fontend-100/02-merge-sorted-arr.ts)| 42 |  [题目](https://leetcode-cn.com/problems/merge-sorted-array/) [题解](https://leetcode-cn.com/problems/merge-sorted-array/solution/by-hovinghuang-58f6/)|  [题目](https://www.nowcoder.com/practice/89865d4375634fc484f3a24b7fe65665?tpId=295&tqId=658&ru=/exam/oj&qru=/ta/format-top101/question-ranking&sourceUrl=%2Fexam%2Foj%3Ftab%3D%25E7%25AE%2597%25E6%25B3%2595%25E7%25AF%2587%26topicId%3D295) [题解](https://blog.nowcoder.net/n/950d8331e9004749adc1a3d98a5ec29f) | `双指针` | <font color=green>容易</font> |
+| 3 | [字符串相加](./src/00-codetop-fontend-100/03-add-strings.ts)| 38 |  [题目](https://leetcode-cn.com/problems/add-strings/) [题解](https://leetcode-cn.com/problems/add-strings/solution/by-hovinghuang-l59r/)|  [题目](https://www.nowcoder.com/practice/11ae12e8c6fe48f883cad618c2e81475?tpId=295&tqId=1061819&ru=/exam/oj&qru=/ta/format-top101/question-ranking&sourceUrl=%2Fexam%2Foj%3Ftab%3D%25E7%25AE%2597%25E6%25B3%2595%25E7%25AF%2587%26topicId%3D295) [题解](https://blog.nowcoder.net/n/1027295c5c8d44f7bbfe2b276e5adf20) | `双指针` `模拟` | <font color=green>容易</font> |
+| 4 | [比较版本号](./src/00-codetop-fontend-100/04-compare-version.ts)| 37 |  [题目](https://leetcode-cn.com/problems/compare-version-numbers/) [题解](https://leetcode-cn.com/problems/compare-version-numbers/solution/by-hovinghuang-rmlf/)|  [题目](https://www.nowcoder.com/practice/2b317e02f14247a49ffdbdba315459e7) [题解](https://blog.nowcoder.net/n/5569dbf30e3e45ea977152a629d86439) | `-` | <font color= orange>中等</font> |
+| 5 | [有效的括号](./src/00-codetop-fontend-100/05-is-valid-brackets.ts)| 35 |  [题目](https://leetcode-cn.com/problems/valid-parentheses/) [题解](https://leetcode-cn.com/problems/valid-parentheses/solution/by-hovinghuang-6gz1/)|  [题目](https://www.nowcoder.com/practice/37548e94a270412c8b9fb85643c8ccc2?tpId=295&tqId=726&ru=/exam/oj&qru=/ta/format-top101/question-ranking&sourceUrl=%2Fexam%2Foj%3Ftab%3D%25E7%25AE%2597%25E6%25B3%2595%25E7%25AF%2587%26topicId%3D295) [题解](https://blog.nowcoder.net/n/620e933e59534064a9722bfa6da0c3d0) | `栈` | <font color=green>容易</font> |
+| 6 | [两数之和](./src/00-codetop-fontend-100/06-two-sum.ts)| 33 |  [题目](https://leetcode-cn.com/problems/two-sum/) [题解](https://leetcode-cn.com/problems/two-sum/solution/by-hovinghuang-8jqr/)|  [题目](https://www.nowcoder.com/practice/20ef0972485e41019e39543e8e895b7f?tpId=295&tqId=745&ru=/exam/oj&qru=/ta/format-top101/question-ranking&sourceUrl=%2Fexam%2Foj%3Ftab%3D%25E7%25AE%2597%25E6%25B3%2595%25E7%25AF%2587%26topicId%3D295) [题解](https://blog.nowcoder.net/n/61a9e5d2ac2f46db9f6f9e324faab016) | `哈希` | <font color=green>容易</font>
+| 7 | [爬楼梯]()| 25 |  [题目]() [题解]()|  [题目]() [题解]() | `-` `-` | <font color=green>容易</font> |
+| 8 | [全排列]()| 25 |  [题目]() [题解]()|  [题目]() [题解]() | `-` `-` | <font color= orange>中等</font> |
+| 9 | [最大子序和]()| 25 |  [题目]() [题解]()|  [题目]() [题解]() | `-` `-` | <font color=green>容易</font> |
+| 10| [路径总和]()| 24 |  [题目]() [题解]()|  [题目]() [题解]() | `-` `-` | <font color=green>容易</font> |
+| 11| [反转链表]()| 22 |  [题目]() [题解]()|  [题目]() [题解]() | `-` `-` | <font color=green>容易</font> |
+| 12| [三数之和]()| 21 |  [题目]() [题解]()|  [题目]() [题解]() | `-` `-` | <font color= orange>中等</font> | 
+| 13| [二叉树的层序遍历]()| 21 |  [题目]() [题解]()|  [题目]() [题解]() | `-` `-` | <font color= orange>中等</font> |
+| 14| [数组中的第K个最大元素]()| 21 |  [题目]() [题解]()|  [题目]() [题解]() | `-` `-` | <font color= orange>中等</font> |
+| 15| [买卖股票的最佳时机]()| 19 |  [题目]() [题解]()|  [题目]() [题解]() | `-` `-` | <font color=green>容易</font> |
+| 16| [手撕快速排序]()| 19 |  [题目]() [题解]()|  [题目]() [题解]() | `-` `-` | <font color= orange>中等</font> |
+| 17| [环形链表]()| 19 |  [题目]() [题解]()|  [题目]() [题解]() | `-` `-` | <font color=green>容易</font> |
+| 18| [最长回文子串]()| 19 |  [题目]() [题解]()|  [题目]() [题解]() | `-` `-` | <font color= orange>中等</font> | 
+| 19| [求根节点到叶节点数字之和]()| 18 |  [题目]() [题解]()|  [题目]() [题解]() | `-` `-` | <font color= orange>中等</font> |
+| 20| [二分查找]()| 15 |  [题目]() [题解]()|  [题目]() [题解]() | `-` `-` | <font color=green>容易</font> |
 
 <br>
 本站持续更新，敬请期待……
