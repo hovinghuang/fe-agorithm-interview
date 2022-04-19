@@ -41,10 +41,10 @@ Windows or Linux 可以用 （CTRL + click）题目 or 题解 打开一个新窗
 | 4* | [比较版本号](./src/00-codetop-fontend-100/04-compare-version.ts)| 37 |  [题目](https://leetcode-cn.com/problems/compare-version-numbers/) [题解](https://leetcode-cn.com/problems/compare-version-numbers/solution/by-hovinghuang-rmlf/)|  [题目](https://www.nowcoder.com/practice/2b317e02f14247a49ffdbdba315459e7) [题解](https://blog.nowcoder.net/n/5569dbf30e3e45ea977152a629d86439) | `字符串` | `medium` |
 | 5* | [有效的括号](./src/00-codetop-fontend-100/05-is-valid-brackets.ts)| 35 |  [题目](https://leetcode-cn.com/problems/valid-parentheses/) [题解](https://leetcode-cn.com/problems/valid-parentheses/solution/by-hovinghuang-6gz1/)|  [题目](https://www.nowcoder.com/practice/37548e94a270412c8b9fb85643c8ccc2?tpId=295&tqId=726&ru=/exam/oj&qru=/ta/format-top101/question-ranking&sourceUrl=%2Fexam%2Foj%3Ftab%3D%25E7%25AE%2597%25E6%25B3%2595%25E7%25AF%2587%26topicId%3D295) [题解](https://blog.nowcoder.net/n/620e933e59534064a9722bfa6da0c3d0) | `栈` | `easy` |
 | 6* | [两数之和](./src/00-codetop-fontend-100/06-two-sum.ts)| 33 |  [题目](https://leetcode-cn.com/problems/two-sum/) [题解](https://leetcode-cn.com/problems/two-sum/solution/by-hovinghuang-8jqr/)|  [题目](https://www.nowcoder.com/practice/20ef0972485e41019e39543e8e895b7f?tpId=295&tqId=745&ru=/exam/oj&qru=/ta/format-top101/question-ranking&sourceUrl=%2Fexam%2Foj%3Ftab%3D%25E7%25AE%2597%25E6%25B3%2595%25E7%25AF%2587%26topicId%3D295) [题解](https://blog.nowcoder.net/n/61a9e5d2ac2f46db9f6f9e324faab016) | `哈希` | `easy`
-| 7 | [爬楼梯]()| 25 |  [题目]() [题解]()|  [题目]() [题解]() | `-` `-` | `easy` |
-| 8 | [全排列]()| 25 |  [题目]() [题解]()|  [题目]() [题解]() | `-` `-` | `medium` |
-| 9 | [最大子序和]()| 25 |  [题目]() [题解]()|  [题目]() [题解]() | `-` `-` | `easy` |
-| 10| [路径总和]()| 24 |  [题目]() [题解]()|  [题目]() [题解]() | `-` `-` | `easy` |
+| 7* | [爬楼梯]()| 25 |  [题目]() [题解]()|  [题目]() [题解]() | `递归` `动态规划` | `easy` |
+| 8 | [全排列]()| 25 |  [题目]() [题解]()|  [题目]() [题解]() | `回溯` | `medium` |
+| 9* | [最大子序和]()| 25 |  [题目]() [题解]()|  [题目]() [题解]() | `贪心` `动态规划` | `easy` |
+| 10*| [路径总和]()| 24 |  [题目]() [题解]()|  [题目]() [题解]() | `-` `-` | `easy` |
 | 11| [反转链表]()| 22 |  [题目]() [题解]()|  [题目]() [题解]() | `-` `-` | `easy` |
 | 12| [三数之和]()| 21 |  [题目]() [题解]()|  [题目]() [题解]() | `-` `-` | `medium` | 
 | 13| [二叉树的层序遍历]()| 21 |  [题目]() [题解]()|  [题目]() [题解]() | `-` `-` | `medium` |
