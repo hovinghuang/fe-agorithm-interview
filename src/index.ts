@@ -6,4 +6,3 @@ import './index.css'
 //         func()
 //     })
 // }
-console.log('Hello Webpack !!!')
