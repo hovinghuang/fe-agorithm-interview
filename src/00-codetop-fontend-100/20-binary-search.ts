@@ -3,7 +3,7 @@
  * 题目名称：二分搜索
  * leetcode 题目: https://leetcode-cn.com/problems/binary-search/
  * leetcode 题解: https://leetcode-cn.com/problems/binary-search/solution/by-hovinghuang-ks00/
- * 牛客网 题目: https://www.nowcoder.com/practice/d3df40bd23594118b57554129cadf47b?tpId=295&tqId=1499549&ru=/exam/oj&qru=/ta/format-top101/question-ranking&sourceUrl=%2Fexam%2Foj%3Ftab%3D%25E7%25AE%2597%25E6%25B3%2595%25E7%25AF%2587%26topicId%3D295
+ * 牛客网 题目: https://www.nowcoder.com/practice/d3df40bd23594118b57554129cadf47b?
  * 牛客网 题解: https://blog.nowcoder.net/n/18779274e55745b682ab9be9bb9f438d
  */
 

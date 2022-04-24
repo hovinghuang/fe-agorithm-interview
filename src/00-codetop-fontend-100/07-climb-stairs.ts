@@ -3,7 +3,7 @@
  * 题目名称：爬楼梯（跳台阶）
  * leetcode 题目: https://leetcode-cn.com/problems/climbing-stairs/
  * leetcode 题解: https://leetcode-cn.com/problems/climbing-stairs/solution/by-hovinghuang-bl5r/
- * 牛客网 题目: https://www.nowcoder.com/practice/8c82a5b80378478f9484d87d1c5f12a4?tpId=295&tqId=23261&ru=/exam/oj&qru=/ta/format-top101/question-ranking&sourceUrl=%2Fexam%2Foj%3Ftab%3D%25E7%25AE%2597%25E6%25B3%2595%25E7%25AF%2587%26topicId%3D295
+ * 牛客网 题目: https://www.nowcoder.com/practice/8c82a5b80378478f9484d87d1c5f12a4
  * 牛客网 题解: https://blog.nowcoder.net/n/7057ccebe8fd452580442b74ffbb8d90
  */
 
