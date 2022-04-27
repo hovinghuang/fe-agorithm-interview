@@ -8,15 +8,45 @@
  */
 
 /**
- * 解法一：深度优先(递归)
+ * 解法一：递归
  * 思路：
- * （1）当我们遇到矩阵的某个元素为1时，首先将其置为了0
- * （2）然后查看与它相邻的上下左右四个方向，如果这四个方向相邻元素为1，则进入该元素
- * （3）进入该元素之后我们发现又回到了刚刚的子问题，又是把这一片相邻区域的 1 全部置为 0 ，因此可以用递归实现。
- * 时间复杂度：O(nm)，其中m、n为矩阵的长和宽，需要遍历整个矩阵，每次dfs搜索需要经过每个值为1的元素，
- *          但是最坏情况下也只是将整个矩阵变成0，因此相当于最坏遍历矩阵2次
- * 空间复杂度：0(nm)，最坏情况下整个矩阵都是1，递归栈深度为
+ * （1）最大深度是所有叶子节点的深度的最大值，深度是指树的根节点到任一-叶子节点路径上节点的数量，
+ * （2）因此从根节点每次往下一层深度就会加1。
+ * （3）因此二叉树的深度就等于根结点这个1层加上左子树和右子树深度的最大值
+ * 时间复杂度: O(n)，其中n为二叉树的节点数，遍历整棵二叉树
+ * 空间复杂度: O(n)，最坏情况下，二叉树化为链表，递归栈深度最大为n
  */
-function numIslands(grid: string[][]): number {
-    
+ function maxDepth(root: TreeNode | null): number {
+    if (root == null) return 0
+    return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1
+};
+
+/**
+ * 解法二：层次遍历
+ * 思路：
+ *   既然是统计二叉树的最大深度，除了根据路径到达从根节点到达最远的叶子节点以外，我
+ *   们还可以分层统计。对于一棵二叉树而言，必然是一层一层的，那一层就是一个深度，有
+ *   的层可能会很多节点，有的层如根节点或者最远的叶子节点，只有一个节点，但是不管多
+ *   少个节点，它们都是一层。因此我们可以使用层次遍历，二叉树的层次遍历就是从上到下
+ *   按层遍历，每层从左到右，我们只要每层统计层数即是深度。
+ * 时间复杂度: O(n)，其中n为二叉树的节点数，遍历整棵二叉树
+ * 空间复杂度: O(n)，辅助队列的空间最坏为n
+ */
+function maxDepth(root: TreeNode | null): number {
+    if(root == null) return 0
+
+    const queue: TreeNode[] = []
+    queue.push(root)
+    let maxDep = 0
+
+    while (!queue.length) {
+        for (let i = 0; i < queue.length; i++) {
+            const node = queue.shift()
+            if (node.left) queue.push(node.left)
+            if (node.right) queue.push(node.right)
+        }
+        maxDep++
+    }
+
+    return maxDep
 };
