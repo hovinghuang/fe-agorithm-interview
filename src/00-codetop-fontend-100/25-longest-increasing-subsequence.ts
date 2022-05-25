@@ -10,9 +10,8 @@
 /**
  * 解法一：动态规划
  * 思路：
- * （1）
- * 时间复杂度：O(n^2)，其中 nn 为数组 nums 的长度。
- * 空间复杂度：O(n)O(n)，需要额外使用长度为 nn 的 dpdp 数组。
+ * 时间复杂度：O(n^2)，其中 n 为数组 nums 的长度。
+ * 空间复杂度：O(n)，需要额外使用长度为 n 的 dp 数组。
  */
 function lengthOfLIS(nums: number[]): number {
     if (nums.length == 0) return 0
@@ -35,7 +34,6 @@ function lengthOfLIS(nums: number[]): number {
 /**
  * 解法二：贪心 + 二分查找
  * 思路：
- * （1）
  * 时间复杂度：O(nlogn)
  * 空间复杂度：O(n)
  */
