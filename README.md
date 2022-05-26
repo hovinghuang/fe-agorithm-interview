@@ -90,7 +90,7 @@ Windows or Linux 可以用 （CTRL + click）题目 or 题解 打开一个新窗
 |  序号 |  题目名称 |  考频  | LeetCode | 牛客 | 考点 | 难度 |
 |  ----  |  ----  | ----  |  ----  |  ----  |  ----  |  ----  |
 | 21*| [岛屿数量](./src/00-codetop-fontend-100/21-number-of-islands.ts)| 15 |  [题目](https://leetcode-cn.com/problems/number-of-islands/) [题解](https://leetcode-cn.com/problems/number-of-islands/solution/by-hovinghuang-d8tz/)|  [题目](https://www.nowcoder.com/practice/0c9664d1554e466aa107d899418e814e) [题解](https://blog.nowcoder.net/n/73610fd87bd94e9590a4d71b9a898f79) | `DFS` `BFS` | `medium` |
-| 22*| [括号生成]()| 13 |  [题目]() [题解]()|  [题目]() [题解]() | `递归` | `medium` |
+| 22*| [括号生成](./src/00-codetop-fontend-100/22-generate-parenthesis.ts)| 13 |  [题目](https://leetcode-cn.com/problems/generate-parentheses/) [题解](https://leetcode-cn.com/problems/generate-parentheses/solution/by-hovinghuang-ueaq/)|  [题目](https://www.nowcoder.com/practice/c9addb265cdf4cdd92c092c655d164ca) [题解](https://blog.nowcoder.net/n/14c439288cc944d397206965bcc2d0bc) | `递归` | `medium` |
 | 23*| [合并两个有序链表]()| 12 |  [题目]() [题解]()|  [题目]() [题解]() | `链表` `递归` | `easy` |
 | 24*| [螺旋矩阵]()| 13 |  [题目]() [题解]()|  [题目]() [题解]() | `-` `-` | `medium` |
 | 25*| [最长上升子序列]()| 12 |  [题目]() [题解]()|  [题目]() [题解]() | `动态规划` `贪心` `二分` | `medium` |
