@@ -10,7 +10,7 @@
 /**
  * 解法一：
  * 思路：
- * 时间复杂度：
+ * 时间复杂度：  
  * 空间复杂度：
  */
 function numIslands(grid: string[][]): number {
